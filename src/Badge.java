@@ -21,16 +21,8 @@ public class Badge {
     public Badge(Employee employeeThatNeedsBadge){
         keepTrackOfEmployeesNumber();
         employee=employeeThatNeedsBadge;
-        generateBadgeIdCode();
+        badgeIdCode=generateBadgeIdCode();
     }
-
-
-
-
-
-
-
-
 
     public int getTotalNumberOfEmployees(){
         return totalNumberOfEmployees;
